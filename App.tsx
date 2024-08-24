@@ -1,5 +1,5 @@
 import { SafeAreaView } from "react-native-safe-area-context";
-import Login from "../src/screens/Login";
+import Login from "./src/screens/Login";
 
 const App: React.FC = () => {
   return (
@@ -10,3 +10,5 @@ const App: React.FC = () => {
     </>
   );
 };
+
+export default App;

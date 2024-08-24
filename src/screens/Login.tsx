@@ -6,7 +6,7 @@ import CustomTextInput from "../components/CustomTextInputs";
 import { AtSymbolIcon, LockClosedIcon } from "react-native-heroicons/solid";
 import CustomButton from "../components/CustomButton";
 
-const Login = () => {
+const Login: React.FC = () => {
     const [email, setEmail] = useState<String | null>(null);
     const [password, setPassword] = useState<String | null>(null);
 
@@ -48,7 +48,7 @@ const Login = () => {
                       onPress={() => console.log(password)}
                     />
                     <View className="flex w-full justify-end items-end pt-4">
-                        <Pressable onPress={() => {}}>
+                        <Pressable onPress={() => {console.log("Pressed")}}>
                             <Text className="text-center text-gray-500 text-sm">
                                 Forgot Password?
                             </Text>
