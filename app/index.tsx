@@ -1,8 +1,11 @@
-import { StyleSheet, Text, View } from "react-native";
 import React from "react";
+import Login from "@/src/screens/Login";
+import "../global.css";
 
 export default function Page() {
   return (
-        <Text>Hello World</Text>
+    <>
+    <Login />
+  </>
   );
 }

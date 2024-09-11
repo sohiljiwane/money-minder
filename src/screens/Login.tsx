@@ -21,7 +21,7 @@ const Login: React.FC = () => {
     return (
         <MainContainer>
             <KeyboardAvoidWrapper>
-                <View className="flex flex-row items-center justify-center gap-0 pt-[25%]">
+                <View className="flex flex-row items-center justify-center gap-0 pt-[50%]">
                     <Text className="text-3xl text-[#EFE3c8] font-mono">Secure</Text>
                     <Text className="text-3xl text-[#EFE3c850] font-sans">App</Text>
                 </View>

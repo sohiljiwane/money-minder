@@ -1,6 +1,6 @@
 import React from "react";
-import { SafeAreaView } from "react-native-safe-area-context";
 import { IProps } from "../../mm-app";
+import { SafeAreaView } from "react-native";
 
 const MainContainer: React.FC<IProps> = ({children}) => {
     return <>
